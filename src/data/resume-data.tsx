@@ -7,6 +7,7 @@ export const RESUME_DATA = {
   initials: "MK",
   location: "Ahmedabad, Gujarat, India",
   locationLink: "https://www.google.com/maps/place/Ahmedabad",
+  role: "Software Engineer",
   about:
     "Software Engineer focused on building products with extra attention to details",
   summary:
