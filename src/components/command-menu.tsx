@@ -57,6 +57,7 @@ export const CommandMenu = ({ links }: Props) => {
           <CommandGroup heading="Links">
             {links.map(({ url, title }) => (
               <CommandItem
+                className="cursor-pointer"
                 key={url}
                 onSelect={() => {
                   setOpen(false);
